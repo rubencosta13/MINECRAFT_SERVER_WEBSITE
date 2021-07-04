@@ -4,4 +4,3 @@ let typed = new Typed('#typed', {
 document.getElementById('ip-button').onclick = function() {
     alert('Server ip: discorddevelopers.ddns.net');
 }
-
