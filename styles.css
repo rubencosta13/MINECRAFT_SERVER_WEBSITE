@@ -1,3 +1,28 @@
-p {
-    font-size: 20px;
+#gif{
+    float: left;
+}
+#name {
+    font-size: 34px;
+    float: right;
+}
+#typed{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+@media (max-width: 500px){
+    #name{
+        width: min(09%, 11rem);
+        visibility: visible;
+    }
+    #btn-group{
+        width: min(70%, 1rem);
+        visibility: visible;
+    }
+    #dropdown{
+        visibility: visible;
+    }
+    #nav-bar{
+        visibility: visible;
+    }
 }
